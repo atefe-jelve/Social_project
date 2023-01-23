@@ -1,6 +1,6 @@
 #  Project Name : Social network
 # Create By: atefe jelve
-###Email Address : [a.jelve.69@gmail.com](a.jelve.69@gmail.com, "Email Address")
+### Email Address : [a.jelve.69@gmail.com](a.jelve.69@gmail.com, "Email Address")
 ___
  پروؤه شبکه های اجتماعی پروژه ایست تحت وب و طراحی شده به عنوان نمونه ای ساده و مختصر از نمونه های واقعی همچون اینستاگرام
 امکان ثبت نام و لاگین و یرایش پروفایل و ایجاد پست جدید مشاهده پست های قبلی و ویرای شو حذف پست های خود 
