@@ -1,0 +1,22 @@
+{% extends '_base.html' %}
+
+{% block title %}
+    list posts
+{% endblock %}
+
+{% block content %}
+
+    <form action="" method="get">
+        {{ form.as_p }}
+        <input type="submit" value="Search">
+    </form>
+
+    <div class="card">
+        {% for post in posts %}
+            <a class="card-body" href="{{ post.get_absolute_url }}">{{ post.user }}</a>
+            <p>{{ post.body|truncatechars:20 }}</p>
+              <p>-------------------</p>
+        {% endfor %}
+    </div>
+
+{% endblock %}
